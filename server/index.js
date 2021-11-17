@@ -13,7 +13,6 @@ app.get('/css', (req, res) => {
 
 app.get('/js', (req, res) => {
     res.sendFile(path.join(__dirname, '../main.js'))
-    console.log('main.js joined')
 })
 
 

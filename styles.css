@@ -20,6 +20,19 @@ header {
     align-items: center;
 }
 
+#featured-header {
+    width:50%;
+    height:50px;
+    background-color: rgb(168, 97, 235);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    color:rgb(2, 75, 2);
+}
+
 .spell-pic {
     background-size:400px;
     width:400px;
@@ -28,6 +41,9 @@ header {
 main {
     margin-top:20px;
     font-size:25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 #site-btn {
@@ -36,4 +52,25 @@ main {
     font-size: 30px;
     padding:10px;
     margin-top:30px;
+}
+
+#fine-text {
+    color:black;
+    position:fixed;
+    bottom:0;
+}
+
+.cart-block {
+    background-color: black;
+    color:white;
+    padding:15px;
+}
+
+#checkout {
+    width:100px;
+    height:70px;
+    font-size: 20px;
+    padding:5px;
+    margin-top: 10px;
+    background-color: cornflowerblue;
 }
